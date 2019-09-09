@@ -7,7 +7,11 @@ import styled.css
 import styled.styledDiv
 import styled.styledH1
 
-class App: RComponent<RProps, RState>() {
+interface AppState: RState {
+    var currentVideo: Video?
+}
+
+class App: RComponent<RProps, AppState>() {
     override fun RBuilder.render() {
         styledH1 {
             css {
@@ -21,6 +25,12 @@ class App: RComponent<RProps, RState>() {
             }
             videoList {
                 videos = unwatchedVideos
+                selectedVideo = state.currentVideo
+                onSelectVideo = { video ->
+                    setState {
+                        currentVideo = video
+                    }
+                }
             }
 
             h3 {
@@ -28,6 +38,12 @@ class App: RComponent<RProps, RState>() {
             }
             videoList {
                 videos = watchedVideos
+                selectedVideo = state.currentVideo
+                onSelectVideo = { video ->
+                    setState {
+                        currentVideo = video
+                    }
+                }
             }
         }
         styledDiv {
