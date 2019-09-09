@@ -14,6 +14,7 @@
     <orderEntry type="library" name="kotlinx-html-js" level="project" />
     <orderEntry type="library" name="kotlin-css-js" level="project" />
     <orderEntry type="library" name="kotlin-styled" level="project" />
+    <orderEntry type="library" name="kotlinx-coroutines-core" level="project" />
   </component>
 </module>
 
