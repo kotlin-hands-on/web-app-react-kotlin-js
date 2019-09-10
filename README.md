@@ -1,13 +1,24 @@
+[![official JetBrains project](https://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
+
+# Building Web Applications with React and Kotlin JS Hands-On Lab
+
+This repository is the code corresponding to the hands-on lab Building Web Applications with React and Kotlin JS.
+
+**You can find the code of the lab after each step outlined in the tutorial in the corresponding branch.**
+
+## About Create-React-Kotlin-App
+
 This project was bootstrapped with [Create React Kotlin App](https://github.com/JetBrains/create-react-kotlin-app).
 
 Below you will find some useful information on how to work with this application.<br>
-We're still working on this guide and you can find its most recent version [here](https://github.com/JetBrains/create-react-kotlin-app/blob/master/packages/react-scripts/template/README.md).
+Find out more about the project [here](https://github.com/JetBrains/create-react-kotlin-app/blob/master/packages/react-scripts/template/README.md).
 
-## Sending Feedback
+### Sending Feedback
 
 We are always open to [your feedback](https://youtrack.jetbrains.com/issues/CRKA).
 
-## Folder Structure
+### Folder Structure
 
 After creation, your project should look like this:
 
@@ -52,11 +63,11 @@ Read instructions below for using assets from JavaScript and HTML.
 You can, however, create more top-level directories.<br>
 They will not be included in the production build so you can use them for things like documentation.
 
-## Available Scripts
+### Available Scripts
 
 Once the installation is done, you can run some commands inside the project folder:
 
-### `npm start` or `yarn start`
+#### `npm start` or `yarn start`
 
 Runs the app in development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -64,14 +75,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload automatically when you make edits.<br>
 You will see build errors and lint warnings in the console.
 
-### `npm run build` or `yarn build`
+#### `npm run build` or `yarn build`
 
 Builds the app for production to the `build` folder.<br>
 It ensures that React is bundled in production mode and the build is optimized for best performance.
 
 The build is minified and the filenames include hashes for cache management. Your app is ready to be deployed.
 
-### `npm run eject`
+#### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
@@ -79,7 +90,7 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 
 Running `npm run eject` copies all configuration files and transitive dependencies (webpack, Kotlin Compiler, etc) right into your project so you have full control over them. Commands like `npm start` and `npm run build` will still work, but they will point to the copied scripts so you can tweak them. At this point, you’re on your own.
 
-## Debugging the App
+### Debugging the App
 
 You can debug the running app right in IntelliJ IDEA Ultimate using its built-in JavaScript debugger. The IDE will run a new instance of Chrome and attach a debugger to it.
 
