@@ -2939,6 +2939,11 @@ kotlin@^1.3.21:
   resolved "https://registry.yarnpkg.com/kotlin/-/kotlin-1.3.50.tgz#40265fc9efd8992247e04dc6520a3bbd1f4c412c"
   integrity sha512-Fxi9WxzsMwtdnkaqHh5afShZRcQUn4rUWLLJyIPRlf2qrfbqNt6+SF/bIfHXC+n1DEanr5SSDOxp8YMJom9V+A==
 
+kotlinx-coroutines-core@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/kotlinx-coroutines-core/-/kotlinx-coroutines-core-1.3.1.tgz#d1d25ed24315abc9fc673bd9541d9fd4b5742849"
+  integrity sha512-s0c60KeWihYkXlFq++CqcWiK4KUI7WKOsbJ7Bs6i7ttPe2HQjevgZgRCCEMnJ4SIiVxjuhY0QNe/C17HlOHThg==
+
 kotlinx-html@^0.6.12:
   version "0.6.12"
   resolved "https://registry.yarnpkg.com/kotlinx-html/-/kotlinx-html-0.6.12.tgz#8d1b4a5334de51954cc64a0aa7dd3a68d8f0bb5b"
